@@ -1,5 +1,10 @@
 #! usr/bin/env python
 
+
+# Written by starlingvibe <chidexy67@gmail.com>
+# Github: https://github.com/starlingvibes
+# Open source, feel free to fork and edit. Cheers!
+
 even_numbers = []
 
 
@@ -8,7 +13,12 @@ def select_even_numbers(numbers_list):
     for a in numbers_list:
         if a % 2 == 0:
             even_numbers.append(a)
-    print(f"The even number(s) present in list is/are: {even_numbers}")
+    if len(numbers_list) == 1:
+        print(f"The even number present in the list is: {even_numbers}")
+    elif len(numbers_list) == 0:
+        print(f"Please input a list of numbers")
+    else:
+        print(f"The even numbers present in the list are: {even_numbers}")
 
 
 print("\n")
