@@ -1,5 +1,5 @@
 # evenNumbersList
-A Python code to output the even numbers present in a given list
+A Python code to output the even numbers present in a user defined list
 
 Extra perks:
 - Beautiful ASCII Banner :-)
